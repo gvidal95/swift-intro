@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C06CEF932999A44E0003AB9F /* Conditionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06CEF922999A44E0003AB9F /* Conditionals.swift */; };
 		C09D7FE32998491E009B2741 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D7FE22998491E009B2741 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C06CEF922999A44E0003AB9F /* Conditionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditionals.swift; sourceTree = "<group>"; };
 		C09D7FDF2998491E009B2741 /* SwiftIntroCMD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftIntroCMD; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09D7FE22998491E009B2741 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C06CEF912999A42A0003AB9F /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				C06CEF922999A44E0003AB9F /* Conditionals.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
 		C09D7FD62998491E009B2741 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 		C09D7FE12998491E009B2741 /* SwiftIntroCMD */ = {
 			isa = PBXGroup;
 			children = (
+				C06CEF912999A42A0003AB9F /* classes */,
 				C09D7FE22998491E009B2741 /* main.swift */,
 			);
 			path = SwiftIntroCMD;
@@ -120,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06CEF932999A44E0003AB9F /* Conditionals.swift in Sources */,
 				C09D7FE32998491E009B2741 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
